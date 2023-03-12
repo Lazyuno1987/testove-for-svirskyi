@@ -1,0 +1,24 @@
+@import '../assets/styles/media';
+@import '../assets/styles/_font.scss';
+@import '../assets/styles/_colors.scss';
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 24px;
+    padding-left: 24px;
+
+    // @include media-tablet {
+    //     width: 768px;
+    //     padding-right: 32px;
+    //     padding-left: 32px;
+    //     position: relative;
+    // }
+
+    @include media-desktop {
+        min-width: 1020px;
+        
+         padding-right: 0;
+         padding-left:0;
+    }
+}
