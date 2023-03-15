@@ -45,7 +45,8 @@ const CharacterDetails = () => {
                     <p className={css.detail__info__attribute}>Species <span className={css.detail__info__title}>{character.species}</span></p>
                     <p className={css.detail__info__attribute}>Origin <span className={css.detail__info__title}>{character.origin.name}</span></p>
                     <p className={css.detail__info__attribute}>Type<span className={css.detail__info__title}>{character.type==='' ? 'Unknow' : character.type}</span></p>
-    </div>
+          </div>
+          
             </article>     
 
       </Container>
