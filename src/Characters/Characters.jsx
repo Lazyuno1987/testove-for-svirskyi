@@ -27,7 +27,7 @@ const Characters = ({ props }) => {
               );
             }}
           </Media>
-          {/* <img className={css.logo} src={Logo} alt='pic'></img> */}
+         
         <div className={css.div_input}>     
       <input className={css.input} placeholder='Filter by name...' type="text" value={props.searchTerm} onChange={props.handleSearch} />
       

@@ -31,15 +31,9 @@ function App() {
   );
 
   return (
-    <>
+    
       <div>
-        {/* <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-          </ul>
-        </nav> */}
+      
 
         <Routes>
           <Route path="/character/:id" element={<CharacterDetails />} />
@@ -53,7 +47,7 @@ function App() {
           />
         </Routes>
       </div>
-    </>
+  
   );
 }
 
